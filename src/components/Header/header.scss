@@ -1,0 +1,10 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  .brand-logo {
+    position: relative;
+  };
+  a {
+    display: inline-block;
+  }
+}

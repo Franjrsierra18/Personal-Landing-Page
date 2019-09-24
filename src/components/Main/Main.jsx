@@ -13,7 +13,7 @@ export default class Main extends Component {
           <p>a Fullstack Developer</p>
         </section>
         <br/>
-        <div className="bd-example">
+        <div className="bd-example" style={{margin:'auto 1em'}}>
           <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
@@ -22,24 +22,21 @@ export default class Main extends Component {
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="https://www.madgraphic.ro/wp-content/uploads/2019/01/featured-product-img.jpg" className="d-block" style={{Width:'600px', Height:'450px', margin:'auto'}} alt="..."/>
+                <img src="https://picsum.photos/id/651/450/300" className="" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Travel Agency web</h5>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="https://themeforest.img.customer.envatousercontent.com/files/222175359/beauty-theme-psd-previews/02-home.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=94b59266bcda48647933b4f6f97ec909" className="d-block img-fluid" style={{Width:'600px', Height:'450px', margin:'auto'}} alt="..."/>
+                <img src="https://picsum.photos/id/650/450/300" className="" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Orquidea Nails web</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src="https://cnet1.cbsistatic.com/img/717YrQWhNRTS_8DUszwvK8Q1x9A=/2018/11/28/a0704ad2-287f-4a8e-bf17-dfa7e4f13890/vudu-free-movies.jpg" className="d-block" style={{Width:'600px', Height:'450px', margin:'auto'}} alt="..."/>
+                <img src="https://picsum.photos/id/652/450/300" className="" alt="..."/>
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Movie app</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </div>
               </div>
             </div>

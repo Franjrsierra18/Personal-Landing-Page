@@ -1,5 +1,5 @@
 .welcome-section {
-  height: 84vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,8 +8,11 @@
   width: 100%;
   background-color: #000;
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  h1 {
+    font-size: 2.4rem;
+  }
   p {
-    font-size: 3rem;
+    font-size: 1.8rem;
     font-weight: 400;
     font-style: italic;
     color: rgb(211, 19, 19);
